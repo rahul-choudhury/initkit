@@ -1,0 +1,16 @@
+{
+    "name": "initkit",
+    "version": "0.1.0",
+    "description": "",
+    "files": [
+        "src",
+        "templates"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bin": {
+        "scaffoldkit": "src/index.js"
+    }
+}
