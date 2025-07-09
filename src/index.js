@@ -14,12 +14,12 @@ import { fileURLToPath } from "url";
 import { createInterface } from "readline";
 import { spawn } from "child_process";
 
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
 main().catch((error) => {
     console.error("Error:", error.message);
     process.exit(1);
 });
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
 
 async function main() {
     const templatesDir = join(__dirname, "..", "templates");
