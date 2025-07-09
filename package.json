@@ -12,5 +12,18 @@
     "type": "module",
     "bin": {
         "scaffoldkit": "src/index.js"
+    },
+    "scripts": {
+        "test": "vitest",
+        "test:ui": "vitest --ui",
+        "test:run": "vitest run",
+        "test:watch": "vitest --watch",
+        "format": "prettier . --write",
+        "format:check": "prettier . --check"
+    },
+    "devDependencies": {
+        "@vitest/ui": "^3.2.4",
+        "prettier": "3.6.2",
+        "vitest": "^3.2.4"
     }
 }
